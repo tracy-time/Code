@@ -1,0 +1,96 @@
+/* General body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+h2 {
+    background-color: #400090;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+/* Logo styling */
+h2 .logo {
+    height: 40px;  /* Adjust the height as needed */
+    width: auto;
+}
+
+/* Table styles */
+table {
+    margin: auto;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+    white-space: nowrap;
+    text-align: center;
+}
+
+th {
+    background-color: #400090;
+    color: white;
+}
+
+td a {
+    text-decoration: none;
+    color: #400090;
+    font-weight: bold;
+}
+
+td a:hover {
+    color: #0056b3;
+}
+
+/* Link styles */
+a {
+    color: #400090;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+}
+
+a:hover {
+    background-color: #ddd;
+}
+
+/* Page layout */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Styling the action buttons */
+a:hover {
+    background-color: #f1f1f1;
+    color: #0056b3;
+}
+.action {
+    display: flex;
+    gap: 5px; /* khoảng cách giữa các nút */
+    flex: 1 0;
+    width: 150px !important;
+}
+
+.action button {
+    padding: 5px 10px; /* Giảm padding để nút nhỏ gọn hơn */
+    font-size: 14px; /* Điều chỉnh kích thước chữ */
+}
